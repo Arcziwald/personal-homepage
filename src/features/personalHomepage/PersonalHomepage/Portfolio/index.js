@@ -4,30 +4,30 @@ import { Content } from "./Content";
 import { StyledGithubIcon, Header, Section, MyRecentProject } from "./styled";
 import { SubHeader } from "../SubHeader";
 import { githubUsername } from "./githubUsername";
-import { fetchRepositories, selectRepositories, selectRepositoriesStatus } from "../../personalHomepageSlice";
-
+import {
+  fetchRepositories,
+  selectRepositories,
+  selectRepositoriesStatus,
+} from "../../personalHomepageSlice";
 
 export const Portfolio = () => {
-    const dispatch = useDispatch();
-  
-    const repositoriesStatus = useSelector(selectRepositoriesStatus);
-    const repositories = useSelector(selectRepositories);
+  const dispatch = useDispatch();
 
-    useEffect(() => {
-        dispatch(fetchRepositories(githubUsername));
-    }, [dispatch]);
+  const repositoriesStatus = useSelector(selectRepositoriesStatus);
+  const repositories = useSelector(selectRepositories);
 
-    return (
-        <Section>
-            <Header>
-                <StyledGithubIcon />
-                <SubHeader>Portfolio</SubHeader>
-                <MyRecentProject>My recent projects</MyRecentProject>
-                </Header>
-        <Content
-            status={repositoriesStatus}
-            repositories={repositories}
-        />
+  useEffect(() => {
+    dispatch(fetchRepositories(githubUsername));
+  }, [dispatch]);
+
+  return (
+    <Section>
+      <Header>
+        <StyledGithubIcon />
+        <SubHeader>Portfolio</SubHeader>
+        <MyRecentProject>My recent projects</MyRecentProject>
+      </Header>
+      <Content status={repositoriesStatus} repositories={repositories} />
     </Section>
   );
 };
