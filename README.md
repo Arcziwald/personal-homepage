@@ -14,13 +14,16 @@ In my portfolio you will find not only projects, but the history of my developme
 
 If you are interested in cooperation or would like to learn more, feel free to contact me. I am happy to share my experiences and ideas for the future.
 
-Together, we can turn visions into reality, coding it piece by piece.  
+Together, we can turn visions into reality, coding it piece by piece.
 
 # Demo
+
 [See Personal Homepage](https://arcziwald.github.io/personal-homepage/)
 
 <a id="technologies"></a>
-##  Used Technologies:
+
+## Used Technologies:
+
 `JavaScript ES+` `React` `React Redux` `React Redux-Saga` `React Redux-Toolkit` `API` `Axios` `styled-component` `RWD` `Normalize` `Immuntabbility` `Accesability` `color-alpha`
 `Flex` `Grid` `Markdown` `Node.js` `Styled-components` `Create-react-app` `
 
@@ -41,11 +44,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
