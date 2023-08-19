@@ -31,7 +31,7 @@ export const Link = styled.a`
     }
 `;
 
-export const styledIcon = Icon => styled(Icon)`
+export const styleIcon = Icon => styled(Icon)`
   height: auto;
   
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {

@@ -4,7 +4,7 @@ import { ReactComponent as GithubIcon } from "./icons/github.svg";
 // import { ReactComponent as linkedInIcon } from "./icons/linkedin.svg";
 // import { ReactComponent as InstagramIcon } from "./icons/instagram.svg";
 
-export const social = [
+export const socials = [
   {
     name: "GitHub",
     url: "http://github.com/Arcziwald",

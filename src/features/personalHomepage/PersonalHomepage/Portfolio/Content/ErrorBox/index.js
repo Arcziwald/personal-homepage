@@ -1,4 +1,4 @@
-import { ButtonLink } from "../../../ButtonLink/styled";
+import { ButtonLink } from "../../../ButtonLink/index";
 import { githubUsername } from "../../githubUsername";
 import { Header, Paragraph, Wrapper } from "./styled";
 import { ReactComponent as WarningIcon } from "./warning.svg";
