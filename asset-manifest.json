@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.js": "/personal-homepage/static/js/main.bcdec8d8.js",
+    "main.js": "/personal-homepage/static/js/main.9f28d83d.js",
     "static/js/787.162bc9a0.chunk.js": "/personal-homepage/static/js/787.162bc9a0.chunk.js",
     "static/media/profile.png": "/personal-homepage/static/media/profile.279ae97fea1c9d14c0b0.png",
     "static/media/github.svg": "/personal-homepage/static/media/github.a9062bf9626a38e8866f20e84ee3d71b.svg",
     "static/media/sun.svg": "/personal-homepage/static/media/sun.d42838989b2d377c229da92fd7f85bcc.svg",
     "index.html": "/personal-homepage/index.html",
+    "static/media/linkedin.svg": "/personal-homepage/static/media/linkedin.9f38a04c76c9595b2da81e0828807b47.svg",
     "static/media/warning.svg": "/personal-homepage/static/media/warning.85537c313894590fbd8703ea3a7fd0d6.svg",
     "static/media/envelope.svg": "/personal-homepage/static/media/envelope.9bfd6791045d0d821ff0299f2529f707.svg",
     "static/media/spinner.svg": "/personal-homepage/static/media/spinner.8face60613a14587d8fbe570d07ee87c.svg",
     "static/media/bullet.svg": "/personal-homepage/static/media/bullet.41506939970e6369828dfce4b6919035.svg",
-    "main.bcdec8d8.js.map": "/personal-homepage/static/js/main.bcdec8d8.js.map",
+    "main.9f28d83d.js.map": "/personal-homepage/static/js/main.9f28d83d.js.map",
     "787.162bc9a0.chunk.js.map": "/personal-homepage/static/js/787.162bc9a0.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.bcdec8d8.js"
+    "static/js/main.9f28d83d.js"
   ]
 }
