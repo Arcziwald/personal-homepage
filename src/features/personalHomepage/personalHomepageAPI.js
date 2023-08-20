@@ -1,9 +1,9 @@
 import axios from "axios";
+import { githubUsername } from "./PersonalHomepage/Portfolio/githubUsername";
 
-const githubUsername = "arcziwald"
-const githubAPIBaseURL = "https:api.github.com";
+const githubAPIBaseURL = "https://api.github.com";
 
-export const getRepositories = (username) =>
+export const getRepositories = () =>
   axios
     .get(`${githubAPIBaseURL}/users/${githubUsername}/repos`)
     .then((response) => response.data);
