@@ -66,7 +66,8 @@ export const themeDark = {
       text: colorNames.white,
     },
     buttonLink: {
-      text: colorNames.ironTransparent,
+      text: colorNames.white,
+      border: colorNames.ironTransparent,
       shadow: colorNames.shipCove,
     },
     boxBackground: colorNames.mineShaftLighter,
