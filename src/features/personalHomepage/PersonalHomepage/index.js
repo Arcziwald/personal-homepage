@@ -1,6 +1,6 @@
 import { MainInformation } from "./MainInformation";
 import { Skills } from "./Skills";
-import { Container, Icon } from "./styled";
+import { Container } from "./styled";
 import { skills, nextSkills } from "./skillsData";
 import { Portfolio } from "./Portfolio";
 import { Footer } from "./Footer";
@@ -13,21 +13,14 @@ export const PersonalHomepage = () => (
     <ThemeSwitch />
     <MainInformation />
     <main>
-      <Skills
-        title={
-          <>
-            My skillset includes <Icon src={toolsIcon} alt="" />
-          </>
-        }
-        skills={skills}
+      <Skills title="My skillset includes" 
+      icon={toolsIcon} 
+      skills={skills} 
       />
 
       <Skills
-        title={
-          <>
-            What I want to learn next <Icon src={rocketIcon} alt="" />
-          </>
-        }
+        title="What I want to learn next"
+        icon={rocketIcon}
         skills={nextSkills}
       />
 
