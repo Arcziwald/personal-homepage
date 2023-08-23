@@ -7,7 +7,7 @@ import {
   LinksRow,
   Name,
   LinksValue,
-} from "./styled";
+} from "../styled";
 
 export const RepositoryTile = ({
   id,

@@ -1,5 +1,5 @@
 import { List } from "./styled";
-import { RepositoryTile } from "./repositoryTile";
+import { RepositoryTile } from "./RepositoryTile/index";
 
 export const Repositories = ({ repositories }) => (
   <List>
