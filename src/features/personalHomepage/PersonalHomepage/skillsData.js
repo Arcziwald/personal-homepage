@@ -14,6 +14,8 @@ export const skills = [
   "React Hooks",
   "Error handling",
   "Promises, Async/Await",
+  "TypeScript",
+  "JSQery",
   "Debugging",
   "NPM",
   "Git",
@@ -23,13 +25,14 @@ export const skills = [
   "Figma",
   "Working with API (fetch, axios)",
   "GitHub Pull Requests & Review",
+  "WebStorm",
 ];
 
 export const nextSkills = [
-  "React Context",
   "Node.js",
+  "C#",
   "Unit testing",
-  "TypeScript",
+  "Python",
   "JS classes",
   "Cypress",
 ];
