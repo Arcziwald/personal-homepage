@@ -1,4 +1,4 @@
-import myPhoto from "./profileArczi.jpg";
+import myPhoto from "./profileArczi.png";
 import {
   Avatar,
   StyledButtonLink,
